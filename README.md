@@ -341,7 +341,7 @@ Como primeira experiência atuando como Product Owner, enfrentei desafios signif
 
 ### 2025-2
 
-[Link do Repositório Parent](https://github.com/c137santos/FATEC-API-5-SEMESTRE)
+[Link do Repositório](https://github.com/c137santos/FATEC-API-5-SEMESTRE)
 
 A Necto Systems é um parceiro de software para organizações que reconhecem o valor de ter as ferramentas adequadas para maximizar o potencial de suas equipes.
 
@@ -351,6 +351,8 @@ A solução chamada Jiboia é um sistema de ETL de dados do Jira que transforma 
 
 ### Tecnologias usadas:
 <div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="python logo"  />
+  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="40" alt="django logo"  />
@@ -373,21 +375,25 @@ A solução chamada Jiboia é um sistema de ETL de dados do Jira que transforma 
 ### Contribuições Pessoais
 
 <ul> 
-  <li> Elaboração do modelo de dados <details> <summary>Ver detalhes</summary> Desenvolvi os endpoints RESTful <code>POST</code> nos controladores Spring Boot (<code>FazendaController</code> e <code>UsuarioController</code>) para receber dados JSON via <code>@RequestBody</code> e persistir as entidades no banco de dados utilizando JPA. Implementei validações robustas com Bean Validation (<code>@Valid</code>) para garantir a integridade dos dados, tratamento de exceções personalizadas e utilizei métodos <code>save()</code> do <code>JpaRepository</code> para operações de persistência seguras e transacionais. </details> </li> 
+  <li> Elaboração do modelo de dados <details> <summary>Ver detalhes</summary> Desenvolvi o modelo de dados normalizado (até a 3ª Forma Normal) para servir de base sobre como vai estruturar nosso banco de dados relacional, garantindo a integridade referencial e redução de redundâncias. Além disso, para o ecossistema de Data Warehouse, projetei a arquitetura utilizando o modelo <strong>Snowflake (Floco de Neve)</strong>, normalizando as tabelas de dimensões para otimizar o armazenamento e a granularidade dos dashboards requeridos pelo cliente. </details> </li> 
   
-  <li> Método de listagem geral de projetos <details> <summary>Ver detalhes</summary> Criei componentes Vue.js single-file components com composition API para os formulários de cadastro de fazendas e usuários. Utilizei <code>v-model</code> para data binding reativo, Vuelidate para validações no front-end e Axios para realizar requisições <code>POST</code> assíncronas para os endpoints da API. A interface foi desenvolvida com Vuetify para garantir consistência visual e responsividade. </details> </li> 
+  <li> Método de listagem geral de projetos <details> <summary>Ver detalhes</summary> No backend, fui responsável pela implementação da camada de <strong>Service</strong>, concentrando a lógica de negócio para a listagem de todos os projetos. Desenvolvi um endpoint <strong>RESTful</strong> utilizando o método <code>GET</code> para exposição desses dados. Para garantir a robustez do código, apliquei pirâmide de testes, desenvolvendo testes unitários (com foco em lógica isolada) e testes de integração para validar a comunicação com a camada de persistência. </details> </li> 
   
-  <li> Método responsável pela listagem Issues <details> <summary>Ver detalhes</summary> Implementei endpoints <code>GET</code> com suporte a paginação utilizando <code>Pageable</code> do Spring Data. Configurei parâmetros de consulta para filtros opcionais, ordenação personalizável e retorno eficiente de grandes conjuntos de dados através de projeções JPA, melhorando significativamente o desempenho das listagens. </details> </li> 
+  <li> Método responsável pela listagem Issues <details> <summary>Ver detalhes</summary> Implementei endpoints <code>GET</code> com suporte a <strong>paginação eficiente no lado do servidor</strong> utilizando o objeto <code>Pageable</code> do Django REST Framework. Esta abordagem otimiza o consumo de memória e banda ao carregar grandes volumes de Issues. Além da configuração do método de listagem, assegurei a qualidade da entrega através de testes unitários e de integração que validam os parâmetros de paginação e filtros. </details> </li> 
   
-  <li> View page de exibição das Issues <details> <summary>Ver detalhes</summary> Identifiquei e corrigi uma vulnerabilidade crítica onde as senhas dos usuários estavam sendo armazenadas em texto plano. Implementei hashing seguro com BCryptPasswordEncoder do Spring Security, adicionei validação de complexidade de senhas e garanti que todas as credenciais existentes fossem migradas com segurança para o novo formato criptografado. </details> </li> 
+  <li> View page de exibição das Issues <details> <summary>Ver detalhes</summary> Utilizando o framework <strong>Vue.js</strong> e a biblioteca de componentes <strong>Vuetify</strong>, desenvolvi uma interface reativa capaz de consumir a API do backend e renderizar as Issues de forma paginada e assíncrona. Implementei uma estratégia de ambiente via <strong>Docker</strong> que permite a alternância transparente entre o consumo de uma API real e uma <strong>API Mock</strong>, facilitando o desenvolvimento frontend independente do status do backend. </details> </li> 
   
-  <li> Manutenção do SonnarQube <details> <summary>Ver detalhes</summary> Como Product Owner, fui responsável por toda a documentação do produto, incluindo: elaboração do backlog priorizado com metodologia MoSCoW, escrita de user stories com critérios de aceitação claros, definição do sprint backlog, criação do manual do usuário e manutenção da comunicação constante com o cliente para validação de requisitos e expectativas. </details> </li> 
+  <li> Documentação do SonnarQube <details> <summary>Ver detalhes</summary> Atuando no fluxo de DevOps, fui responsável pela documentação técnica e implementação da análise estática de código via <strong>SonarQube</strong>. O escopo incluiu o setup da ferramenta via containerização, a definição de <strong>Quality Gates</strong>, a parametrização de scanners para visualização de cobertura de testes e a análise crítica de <em>Technical Debt</em> (Débito Técnico) e vulnerabilidades para garantir a integridade e segurança da aplicação.  </details> </li> 
+  
+  <li> Plano de rastreabilidade <details> <summary>Ver detalhes</summary> No lado do DevOps, estabeleci o plano de rastreabilidade do projeto através da criação de IDs exclusivos mapeados aos requisitos funcionais. Implementei <strong>pipelines de CI/CD via GitHub Actions</strong> que automatizam a governança do repositório, validando se os commits seguem padrões predefinidos (como Conventional Commits), verificando a organização do código através de linters e garantindo a execução obrigatória da suíte de testes antes de qualquer merge.  </details> </li> 
 </ul>
 
 ### Hard Skills
 
 <ul> 
-  <li><strong>Git</strong> – Utilizado diariamente para versionamento colaborativo do código-fonte, seguindo um fluxo de trabalho baseado em feature branches. Realizei code reviews através de pull requests, resolvi conflitos de merge e mantive um histórico limpo e organizado do desenvolvimento do projeto.</li> 
+  <li><strong>Git</strong> – Utilizado diariamente para versionamento colaborativo do código-fonte, seguindo um fluxo de trabalho baseado em feature branches.</li> 
+    
+  <li><strong>Github</strong> – Utilizado diariamente para consulta do nosso kanbam e hospedagem do nosso repositório e cada branche criada durante todo o processo. Realizei code reviews através de pull requests, resolvi conflitos de merge e mantive um histórico limpo e organizado do desenvolvimento do projeto. O uso do Github Actions foi essencial, especialmente para o DevOps, onde usamos pipelines para verificação dos requisitos levantados.</li> 
   
   <li><strong>Python</strong> – Linguagem principal para desenvolvimento do back-end, onde implementei a lógica de negócio, tratamento de requisições HTTP, integração com banco de dados e regras de negócio para formação de dashboards. Foram desenvolvidas entidades como Issue, Projeto e Usuário com seus respectivos relacionamentos.</li> 
   
@@ -418,4 +424,4 @@ A solução chamada Jiboia é um sistema de ETL de dados do Jira que transforma 
 
 ### Dificuldades enfrentadas
 
-Como primeira experiência atuando como Product Owner, enfrentei desafios significativos em entender profundamente o papel e suas responsabilidades. Aprendi a formular as perguntas certas para extrair requisitos completos do cliente, desenvolver técnicas para estruturar documentação técnica de forma clara e compreensível, e principalmente, como manter visibilidade total sobre o produto que estaríamos entregando, garantindo que atendesse tanto às necessidades do cliente quanto fosse tecnicamente viável para a equipe de desenvolvimento.
+Por ter sido a primeira experiência no desenvolvimento de API em um ambiente de produção mais sério, apesar de saber algumas coisas, houve muita dificuldade e dúvida se considerando que usamos uma nova linguagem de programação e framework para trabalhar. O conceito de DevOps implementado foi o que mais gerou dúvidas já que nunca havia experienciado essas técnicas antes. Embora essas adversidades consegui aprender como funciona um ambiente de produção mais sério, com as novidades de hospedagem da aplicação na nuvem(deploy) e todos os métodos DevOps.

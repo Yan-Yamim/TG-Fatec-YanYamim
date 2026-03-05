@@ -425,3 +425,34 @@ A solução chamada Jiboia é um sistema de ETL de dados do Jira que transforma 
 ### Dificuldades enfrentadas
 
 Por ter sido a primeira experiência no desenvolvimento de API em um ambiente de produção mais sério, apesar de saber algumas coisas, houve muita dificuldade e dúvida se considerando que usamos uma nova linguagem de programação e framework para trabalhar. O conceito de DevOps implementado foi o que mais gerou dúvidas já que nunca havia experienciado essas técnicas antes. Embora essas adversidades consegui aprender como funciona um ambiente de produção mais sério, com as novidades de hospedagem da aplicação na nuvem(deploy) e todos os métodos DevOps.
+
+### 2026-1
+
+[Link do Repositório](https://github.com/c137santos/FATEC-API-6-SEMESTRE)
+
+A Tecsys é uma empresa de engenharia especializada no desenvolvimento de soluções de infraestrutura para o setor de telecomunicações e energia. Com um foco estratégico em soluções para redução de perdas, a empresa atua em toda a cadeia do mercado elétrico da geração à transmissão, mas encontra sua principal força no segmento de Distribuição.
+
+Diferente da transmissão, a distribuição de energia apresenta uma complexidade técnica elevada devido à vasta capilaridade das redes. É nesse cenário que a Tecsys aplica sua tecnologia de ponta: sensores de monitoramento avançados capazes de mapear a saúde da rede em tempo real.
+
+Atualmente, o setor de energia enfrenta um inimigo invisível, mas extremamente oneroso: as perdas técnicas e comerciais. Embora a ANEEL centralize e disponibilize dados sobre essas perdas, o volume de informações é massivo e de difícil digestão, tornando a análise estratégica um processo lento e complexo.
+
+Essa barreira de dados reflete diretamente na operação comercial da Tecsys. Hoje, o processo de prospecção é altamente manual e custoso. Por exemplo, a equipe técnica precisa se deslocar fisicamente até as concessionárias; é necessário realizar uma "caça" manual pelos chamados pontos ofendidos (áreas críticas de perda); a captura de dados para provar o valor da solução depende de levantamentos de campo exaustivos para, só então, montar uma apresentação personalizada. O resultado é um ciclo de venda longo, onde o cliente só percebe a necessidade da instalação dos sensores após um esforço hercúleo de demonstração técnica. A dor da Tecsys, portanto, não é a falta de tecnologia, mas a necessidade de automatizar a inteligência de dados para identificar remotamente onde o problema está, transformando dados brutos da ANEEL em oportunidades de negócio imediatas.
+
+### Tecnologias usadas:
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-plain.svg" height="40" alt="fastapi logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="postgresql logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="40" alt="mongodb logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-line-wordmark.svg" height="40" alt="amazonwebservices logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" height="40" alt="nginx logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="docker logo"  />
+</div>

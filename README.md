@@ -450,9 +450,35 @@ Essa barreira de dados reflete diretamente na operação comercial da Tecsys. Ho
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="40" alt="mongodb logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-line-wordmark.svg" height="40" alt="amazonwebservices logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" height="40" alt="nginx logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="docker logo"  />
-</div>
+
+  ### Contribuições Pessoais
+
+<ul> 
+  <li> Template do back e frontend <details> <summary>Ver detalhes</summary>  </details> </li> 
+  
+  <li> Configuração do Docker <details> <summary>Ver detalhes</summary>  </details> </li> 
+  
+  <li> Cálculo do TAM <details> <summary>Ver detalhes</summary>  </details> </li> 
+</ul>
+
+### Hard Skills
+
+<ul> 
+  <li><strong>Git</strong> – Utilizado diariamente para versionamento colaborativo do código-fonte, seguindo um fluxo de trabalho baseado em feature branches.</li> 
+    
+  <li><strong>Github</strong> – Utilizado para hospedagem do nosso repositório e cada branche criada durante todo o processo. Realizei code reviews através de pull requests, resolvi conflitos de merge e mantive um histórico limpo e organizado do desenvolvimento do projeto. O uso do Github Actions foi essencial, onde usamos pipelines para verificação de testes.</li> 
+  
+  <li><strong>Python</strong> – Linguagem principal para desenvolvimento do back-end, onde implementei a lógica de negócio, tratamento de requisições HTTP, integração com banco de dados e criação de usuários com JWT.</li> 
+  
+  <li><strong>FastApi</strong> – Framework utilizado desenvolver as requisições HTTP e funções de integração para tornar mais otimizado o código Python.</li>
+  
+  <li><strong>PostgreSQL</strong> – Banco de dados relacional utilizado para persistência das informações. </li> 
+
+  <li><strong>MongoDB</strong> – Bando de dados não relacional que usamos para guardar os dados públicos tirados das empresas de energia do Brasil, como ANEEL, ENEL e etc...</li> 
+  
+  <li><strong>Docker</strong> – Empreguei para containerizar a aplicação, criando Dockerfiles personalizados para back-end, front-end e banco de dados. Utilizei docker-compose para orquestração dos serviços, garantindo consistência entre ambientes de desenvolvimento.</li> 
+  
+  <li><strong>Vue.js</strong> – Por se tratar de uma aplicação de frontend mais simples, usamos o mini-vue que é uma extensão nos permite usar comandos do Vue.Js sem precisar seguir toda uma estrtura de componentes, rotas e configurações para fazer o Vue em si rodar.</li> 
+</ul>
+
+  

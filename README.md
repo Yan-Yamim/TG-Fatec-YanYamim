@@ -454,11 +454,11 @@ Essa barreira de dados reflete diretamente na operação comercial da Tecsys. Ho
   ### Contribuições Pessoais
 
 <ul> 
-  <li> Template do back e frontend <details> <summary>Ver detalhes</summary>  </details> </li> 
+  <li> Template do back e frontend <details> <summary>Ver detalhes</summary> Fui responsável por criar o template inicial da aplicação, isto é, criar a infraestrtura inicial da API. No backend instalei e configurei o gerenciador de pacotes UV, além de usá-lo para implementar o FastApi e todas as bibliotecas usadas (como Sqlalchemy, pytest, pandas e etc...). Para o frontend, usei uma versão menor do Vue.Js chamda petit-vue (ou minivue), não foi necessário instalar node.js ou o npm porque foi necessário importar um comando no arquivo .html </details> </li> 
   
-  <li> Configuração do Docker <details> <summary>Ver detalhes</summary>  </details> </li> 
+  <li> Configuração do Docker <details> <summary>Ver detalhes</summary> Para a infraestrutura da API funcionar para todos os integrantes, usei o Docker para virtualizar o ambiente e também poder instalar ferramentas que faltavam. Além de usar a imagem Python, foi necessário implementar as imagens do PostgresSQL e o MongoDB, já que serão os dois bancos de dados que usamos. Postgres para armazenamento de usuário e concessionários e o Mongo para armazenar todos os dados contidos da ANEEL. </details> </li> 
   
-  <li> Cálculo do TAM <details> <summary>Ver detalhes</summary>  </details> </li> 
+  <li> Cálculo do TAM <details> <summary>Ver detalhes</summary> Um dos tratamentos de dados das concessionárias que precisamos fazer foi o cálculo do TAM, que consistia em montar um gráfico com a soma (em quilômetros) da extensão dos fios de média tensão que circulava em determinados trechos. Para fazer esse cálculo, peguei a pasta .gdb da ENEL-GO e extrai o comprimento de cada conjunto, realizei a soma e dividi por 100 (para estar em quiômetros), também foi necessário extrair e juntar o nome dos trechos para que a tabela fosse mais coerente. Com o cálculo feito, fiz o ranking em ordem decrescente do trecho com maior extensão para o de menor extensão e um gráfico para traduzir esse ranking de forma mais visual. </details> </li> 
 </ul>
 
 ### Hard Skills

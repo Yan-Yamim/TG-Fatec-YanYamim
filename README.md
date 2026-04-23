@@ -1,39 +1,40 @@
-### Quem sou eu?
+<h1 align="center">
+  <a name="eu"></a>Quem sou eu?
+</h1>
+
 Sou Yan, estudante de Banco de Dados na FATEC São José dos Campos.Comecei essa jornada no segundo semestre de 2023. Desde então, participei das API’s (Aprendizagem por Projetos Integrados) onde tive meus primeiros contatos com projetos reais envolvendo linguagens de programação, banco de dados, metodologias scrum e clientes. Desenvolvi aplicações com Python e Java, além de frameworks como Vue.js, Spring Boot e Django. Também tive experiência com diversos bancos de dados, como PostgreSQL, MySQL e MongoDB. Neste portfólio, apresento os projetos que desenvolvi ao longo da minha trajetória na FATEC e minha evolução prática na área de tecnologia.
 
----
-
-# Contatos
-
-###
+<h1 align="center">
+  <a name="contatos"></a>Contatos
+</h1>
 
 <div align="center">
   <a href="https://www.linkedin.com/in/yan-yamim-185220278/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge" height="40" alt="linkedin logo"  />
   </a>
-  <a href="https://github.com/YanYamim" target="_blank">  
+  <a href="https://github.com/Yan-Yamim" target="_blank">  
     <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=for-the-badge" height="40" alt="github logo"  />
   </a>
 </div>
 
-###
+---
 
 # Sumário
-- Quem sou eu?
-- Contatos
-- Projetos
-  - 1° semestre | 2/2023 - VCCorp
-  - 2° semestre | 1/2024 - Leitor de climas
-  - 3° semestre | 2/2024 - Cerberus
-  - 4° semestre | 1/2025 - TerraVision
-  - 5° semestre | 2/2025 - Jiboia
-  - 6° semestre | 1/2026 - Thunder Stone
+- [Quem sou eu?](#eu)
+- [Contatos](#contatos)
+- [Projetos](#projetos)
+  - [1° semestre | 2/2023 - VCCorp](#vccorp)
+  - [2° semestre | 1/2024 - Leitor de climas](#leitor)
+  - [3° semestre | 2/2024 - Cerberus](#cerberus)
+  - [4° semestre | 1/2025 - TerraVision](#terravision)
+  - [5° semestre | 2/2025 - Jiboia](#jiboia)
+  - [6° semestre | 1/2026 - Thunder Stone](#pokemon)
 
 ---
 
-# Projetos
+# <a name="projetos"></a>Projetos
 
-## 1° semestre | 2/2023
+## <a name="vccorp"></a>1° semestre | 2/2023
 
 Projeto: VCCorp
 Empresa parceira: Professor Lucas Nadalete - utilizando o nome fictício PBLTeX
@@ -105,9 +106,9 @@ No primeiro projeto, atuei como desenvolvedor, sendo responsável pela implement
 
 ---
 
-## 2° semestre | 1/2024
+## <a name="leitor"></a>2° semestre | 1/2024
 
-Projeto: Javali
+Projeto: Leitor de climas
 Empresa parceira: Professor Emanuel Mineda
 
 ---
@@ -175,9 +176,9 @@ Nesse projeto, pela primeira vez atuei como Scrum Master, ou seja, minhas respon
 
 ---
 
-## 3° semestre | 2/2024
+## <a name="cerberus"></a>3° semestre | 2/2024
 
-Projeto: Cerberis
+Projeto: Cerberus
 Empresa parceira: GWS - Especializada em desenvolvimento e implantação de soluções inteligentes em Tecnologia da Informação para gestão empresarial, gestão tributária, operações em comércio exterior e CRM
 
 Link do repositório: [Cerberus](https://github.com/c137santos/FATEC-API-3-SEMESTRE)
@@ -258,7 +259,7 @@ Nesse projeto, atuei diretamente no desenvolvimento fullstack, sendo responsáve
 
 ---
 
-### 4° semestre | 1/2025
+### <a name="terravision"></a>4° semestre | 1/2025
 
 Projeto: Terravision
 Empresa parceira: Visiona - Integração de soluções baseadas em sistemas espaciais
@@ -343,7 +344,7 @@ Atuei, pela primeira vez como Product Owner, ou seja, fui responsável por toda 
 
 ---
 
-### 5° semestre | 2/2025
+### <a name="jiboia"></a>5° semestre | 2/2025
 
 Projeto: Jiboia
 Empresa parceira: Necto Systems Resolução de interseção entre meio ambiente, gestão territorial e tecnologia.
@@ -427,7 +428,7 @@ Desta vez as funções foram mais voláteis, durante a maioria do projeto atuei 
 
 ---
 
-### 6° semestre | 1/2026
+### <a name="pokemon"></a>6° semestre | 1/2026
 
 Link do Repositório: [Thunder-Stone](https://github.com/c137santos/FATEC-API-6-SEMESTRE)
 

@@ -36,8 +36,8 @@ Sou Yan, estudante de Banco de Dados na FATEC São José dos Campos.Comecei essa
 
 ## <a name="vccorp"></a>1° semestre | 2/2023
 
-Projeto: VCCorp
-Empresa parceira: Professor Lucas Nadalete - utilizando o nome fictício PBLTeX
+**Projeto**: VCCorp  
+**Empresa parceira**: Professor Lucas Nadalete - utilizando o nome fictício PBLTeX
 
 ### Problema
 A PBLTeX utiliza uma metodologia de ensino diferenciada chamada PBL (Problem Based Learning), que depende da gestão de múltiplos "ciclos de entregas" e do registro de "scores parciais" de cada aluno para, ao final, computar o "Fator de Ensino Evolutivo" (FEE).
@@ -108,10 +108,8 @@ No primeiro projeto, atuei como desenvolvedor, sendo responsável pela implement
 
 ## <a name="leitor"></a>2° semestre | 1/2024
 
-Projeto: Leitor de climas
-Empresa parceira: Professor Emanuel Mineda
-
----
+**Projeto**: Leitor de climas  
+**Empresa parceira**: Professor Emanuel Mineda
 
 ### Problema
 Ter um bom entendimento do clima de uma região é essencial para o planejamento de atividades em diversas áreas. Por exemplo, conhecer a temperatura e umidade média em determinados períodos do ano pode influenciar na escolha do que plantar em uma fazenda.
@@ -134,9 +132,7 @@ Link do repositório: [Leitor de climas](https://github.com/Yan-Yamim/Leitor-de-
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo"  />
 </div>
 
-###
-
-###
+---
 
 ### Contribuições Pessoais
 
@@ -178,8 +174,8 @@ Nesse projeto, pela primeira vez atuei como Scrum Master, ou seja, minhas respon
 
 ## <a name="cerberus"></a>3° semestre | 2/2024
 
-Projeto: Cerberus
-Empresa parceira: GWS - Especializada em desenvolvimento e implantação de soluções inteligentes em Tecnologia da Informação para gestão empresarial, gestão tributária, operações em comércio exterior e CRM
+**Projeto**: Cerberus  
+**Empresa parceira**: GWS - Especializada em desenvolvimento e implantação de soluções inteligentes em Tecnologia da Informação para gestão empresarial, gestão tributária, operações em comércio exterior e CRM
 
 Link do repositório: [Cerberus](https://github.com/c137santos/FATEC-API-3-SEMESTRE)
 
@@ -261,8 +257,8 @@ Nesse projeto, atuei diretamente no desenvolvimento fullstack, sendo responsáve
 
 ### <a name="terravision"></a>4° semestre | 1/2025
 
-Projeto: Terravision
-Empresa parceira: Visiona - Integração de soluções baseadas em sistemas espaciais
+**Projeto**: Terravision  
+**Empresa parceira**: Visiona - Integração de soluções baseadas em sistemas espaciais
 
 ### Problema
 As empresas agrícolas que utilizam sistemas de mapeamento geoespacial enfrentam dificuldades em validar e corrigir os polígonos gerados por modelos de inteligência artificial. Atualmente, analistas precisam revisar manualmente diversos talhões utilizando ferramentas dispersas, muitas vezes sem suporte adequado para edição, comparação ou controle de versões. Além disso, a colaboração entre diferentes perfis — administradores, analistas e consultores — ocorre de maneira pouco estruturada, dificultando o registro do histórico de alterações, a rastreabilidade das revisões e o acompanhamento da produtividade individual. Em muitos casos, a ausência de um ambiente centralizado para edição e análise geoespacial atrasa o processo de revisão, reduz a qualidade das correções e prejudica o refinamento dos modelos de IA responsáveis pelo mapeamento agrícola. Também não há uma forma padronizada de medir a performance das correções, o que impede administradores de avaliar a eficiência dos analistas e dificulta o uso dos polígonos revisados como benchmark de qualidade.
@@ -346,16 +342,16 @@ Atuei, pela primeira vez como Product Owner, ou seja, fui responsável por toda 
 
 ### <a name="jiboia"></a>5° semestre | 2/2025
 
-Projeto: Jiboia
-Empresa parceira: Necto Systems Resolução de interseção entre meio ambiente, gestão territorial e tecnologia.
+**Projeto**: Jiboia  
+**Empresa parceira**: Necto Systems Resolução de interseção entre meio ambiente, gestão territorial e tecnologia.
+
+### Problema
+O principal desafio na gestão de projetos modernos reside na fragmentação das informações dentro do Jira, onde o grande volume de dados brutos muitas vezes oculta gargalos operacionais e dificulta uma visão holística do progresso. Atualmente, a falta de uma ferramenta analítica centralizada obriga gestores a realizarem extrações manuais e consolidações imprecisas para entender o esforço real e a performance das equipes, resultando em uma baixa visibilidade estratégica e na dificuldade de prever desvios de cronograma. O problema central, portanto, não é a ausência de dados, mas a carência de uma estrutura que os organize de forma histórica e performática, permitindo que indicadores de andamento e dashboards de produtividade sejam gerados sem a necessidade de intervenção manual constante ou consultas complexas diretamente na API de origem.
+
+### Solução
+Para sanar essa lacuna, o Jiboia foi desenvolvido como um sistema robusto de ETL (Extração, Transformação e Carga) projetado especificamente para converter a complexidade dos dados brutos do Jira em inteligência de negócio acionável. A solução automatiza o consumo de informações via API, consolidando-as em um Data Warehouse otimizado que serve como a "fonte única da verdade" para a geração de métricas de performance e esforço. Ao traduzir o ciclo de vida das issues em dashboards detalhados e boards analíticos, o sistema oferece transparência total sobre o andamento do projeto tanto em nível macro quanto micro, permitindo que as lideranças identifiquem tendências, avaliem a velocidade das entregas e tomem decisões baseadas em dados históricos sólidos, transformando o acompanhamento de projetos em um processo fluido, visual e estratégico.
 
 Link do Repositório: [Jiboia](https://github.com/c137santos/FATEC-API-5-SEMESTRE)
-
-A Necto Systems é um parceiro de software para organizações que reconhecem o valor de ter as ferramentas adequadas para maximizar o potencial de suas equipes.
-
-Esse desafio consiste em criar uma ferramenta analítica que consuma dados diretamente por meio da api do jira, consolide-os em um data warehouse e permita gerar indicadores, dashboard e boards sobre o andamento do projeto.
-
-A solução chamada Jiboia é um sistema de ETL de dados do Jira que transforma informações brutas em métricas úteis para acompanhamento de projetos. O objetivo é dar visibilidade sobre o andamento, esforço e performance das equipes, oferecendo dashboards detalhados tanto em nível de projetos quanto de issues.
 
 ### Tecnologias usadas:
 <div align="left">
@@ -430,15 +426,16 @@ Desta vez as funções foram mais voláteis, durante a maioria do projeto atuei 
 
 ### <a name="pokemon"></a>6° semestre | 1/2026
 
+**Projeto**: Thunder Stone  
+**Empresa parceira**: Tecsys - Soluções para infraestrutura, nas áreas de TV Digital & Radiofrequência, Smart grid e telecomunicações
+
+### Problema
+Diferente da transmissão, a distribuição de energia apresenta uma complexidade técnica elevada devido à vasta capilaridade das redes. Essa barreira de dados reflete diretamente na operação comercial da Tecsys. Hoje, o processo de prospecção é altamente manual e custoso. Por exemplo, a equipe técnica precisa se deslocar fisicamente até as concessionárias; é necessário realizar uma "caça" manual pelos chamados pontos ofendidos (áreas críticas de perda); a captura de dados para provar o valor da solução depende de levantamentos de campo exaustivos para, só então, montar uma apresentação personalizada. O resultado é um ciclo de venda longo, onde o cliente só percebe a necessidade da instalação dos sensores após um esforço hercúleo de demonstração técnica. A dor da Tecsys, portanto, não é a falta de tecnologia, mas a necessidade de automatizar a inteligência de dados para identificar remotamente onde o problema está, transformando dados brutos da ANEEL em oportunidades de negócio imediatas.
+
+### Solução
+A solução proposta atua diretamente na eliminação do gargalo operacional da Tecsys ao converter o vasto e complexo volume de dados brutos da base BDGD da ANEEL em uma ferramenta de inteligência geográfica automatizada. Ao padronizar o cálculo de perdas e processar informações que antes exigiam levantamentos de campo exaustivos, a plataforma substitui a prospecção manual por um diagnóstico remoto e instantâneo, capaz de identificar os pontos mais críticos das redes de distribuição sem a necessidade de deslocamento físico inicial. Através de visualizações estratégicas, como mapas de calor e rankings de trechos ofendidos, o sistema transforma a barreira técnica da capilaridade das redes em uma vantagem comercial, permitindo que a equipe de vendas apresente provas de valor personalizadas e embasadas em dados reais de forma ágil. Assim, a tecnologia reduz drasticamente o ciclo de venda e o custo de aquisição de clientes, transmutando dados não estruturados em oportunidades de negócio imediatas e demonstrando a necessidade da instalação de sensores de forma visual e incontestável para as concessionárias.
+
 Link do Repositório: [Thunder-Stone](https://github.com/c137santos/FATEC-API-6-SEMESTRE)
-
-A Tecsys é uma empresa de engenharia especializada no desenvolvimento de soluções de infraestrutura para o setor de telecomunicações e energia. Com um foco estratégico em soluções para redução de perdas, a empresa atua em toda a cadeia do mercado elétrico da geração à transmissão, mas encontra sua principal força no segmento de Distribuição.
-
-Diferente da transmissão, a distribuição de energia apresenta uma complexidade técnica elevada devido à vasta capilaridade das redes. É nesse cenário que a Tecsys aplica sua tecnologia de ponta: sensores de monitoramento avançados capazes de mapear a saúde da rede em tempo real.
-
-Atualmente, o setor de energia enfrenta um inimigo invisível, mas extremamente oneroso: as perdas técnicas e comerciais. Embora a ANEEL centralize e disponibilize dados sobre essas perdas, o volume de informações é massivo e de difícil digestão, tornando a análise estratégica um processo lento e complexo.
-
-Essa barreira de dados reflete diretamente na operação comercial da Tecsys. Hoje, o processo de prospecção é altamente manual e custoso. Por exemplo, a equipe técnica precisa se deslocar fisicamente até as concessionárias; é necessário realizar uma "caça" manual pelos chamados pontos ofendidos (áreas críticas de perda); a captura de dados para provar o valor da solução depende de levantamentos de campo exaustivos para, só então, montar uma apresentação personalizada. O resultado é um ciclo de venda longo, onde o cliente só percebe a necessidade da instalação dos sensores após um esforço hercúleo de demonstração técnica. A dor da Tecsys, portanto, não é a falta de tecnologia, mas a necessidade de automatizar a inteligência de dados para identificar remotamente onde o problema está, transformando dados brutos da ANEEL em oportunidades de negócio imediatas.
 
 ### Tecnologias usadas:
 <div align="left">
@@ -454,7 +451,7 @@ Essa barreira de dados reflete diretamente na operação comercial da Tecsys. Ho
   <img width="12" />
 </div>
 
-  ### Contribuições Pessoais
+### Contribuições Pessoais
 
 - ***Template do back e frontend** <details> <summary>Ver detalhes</summary> Fui responsável por criar o template inicial da aplicação, isto é, criar a infraestrtura inicial da API. No backend instalei e configurei o gerenciador de pacotes UV, além de usá-lo para implementar o FastApi e todas as bibliotecas usadas (como Sqlalchemy, pytest, pandas e etc...). Para o frontend, usei uma versão menor do Vue.Js chamda petit-vue (ou minivue), não foi necessário instalar node.js ou o npm porque foi necessário importar um comando no arquivo .html </details>
   
@@ -480,4 +477,4 @@ Essa barreira de dados reflete diretamente na operação comercial da Tecsys. Ho
   
 - **Vue.js** – Por se tratar de uma aplicação de frontend mais simples, usamos o mini-vue que é uma extensão nos permite usar comandos do Vue.Js sem precisar seguir toda uma estrtura de componentes, rotas e configurações para fazer o Vue em si rodar.
 
-  
+### Soft Skills

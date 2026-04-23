@@ -2,6 +2,12 @@
   <a name="eu"></a>Quem sou eu?
 </h1>
 
+<div align="center">
+  <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/19749bf0-99d6-4455-97a5-0fdf29606e98" />
+</div>
+
+###
+
 Sou Yan, estudante de Banco de Dados na FATEC São José dos Campos.Comecei essa jornada no segundo semestre de 2023. Desde então, participei das API’s (Aprendizagem por Projetos Integrados) onde tive meus primeiros contatos com projetos reais envolvendo linguagens de programação, banco de dados, metodologias scrum e clientes. Desenvolvi aplicações com Python e Java, além de frameworks como Vue.js, Spring Boot e Django. Também tive experiência com diversos bancos de dados, como PostgreSQL, MySQL e MongoDB. Neste portfólio, apresento os projetos que desenvolvi ao longo da minha trajetória na FATEC e minha evolução prática na área de tecnologia.
 
 <h1 align="center">

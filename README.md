@@ -227,7 +227,7 @@ Nesse projeto, atuei diretamente no desenvolvimento fullstack, sendo responsáve
 - **Possibilidade de relacionar várias tags a um portal de notícia tanto no cadastro quanto na edição**
     <details>
       <summary>Ver detalhes</summary>
- No front-end, implementei um método responsável por buscar todas as tags salvas no banco de dados e exibi-las em um campo de seleção múltipla. Utilizeio `axios` para consumir a API de listagem de tags com os nomes e IDs. Também criei uma estrutura reativa para armazenar as tags selecionadas pelo usuário. Essas informações eram enviadas no corpo da requisição `POST` ou `PUT` ao cadastrar ou editar um portal. Além disso, adaptei os DTOs para aceitar e retornar listas de IDs de tags associadas a cada portal.    
+      No front-end, implementei um método responsável por buscar todas as tags salvas no banco de dados e exibi-las em um campo de seleção múltipla. Utilizeio `axios` para consumir a API de listagem de tags com os nomes e IDs. Também criei uma estrutura reativa para armazenar as tags selecionadas pelo usuário. Essas informações eram enviadas no corpo da requisição `POST` ou `PUT` ao cadastrar ou editar um portal. Além disso, adaptei os DTOs para aceitar e retornar listas de IDs de tags associadas a cada portal.    
     </details>
 
 - **Correção de bug envolvendo registro de portais**
@@ -459,7 +459,7 @@ Link do Repositório: [Thunder-Stone](https://github.com/c137santos/FATEC-API-6-
 
 ### Contribuições Pessoais
 
-- ***Template do back e frontend** <details> <summary>Ver detalhes</summary> Fui responsável por criar o template inicial da aplicação, isto é, criar a infraestrtura inicial da API. No backend instalei e configurei o gerenciador de pacotes UV, além de usá-lo para implementar o FastApi e todas as bibliotecas usadas (como Sqlalchemy, pytest, pandas e etc...). Para o frontend, usei uma versão menor do Vue.Js chamda petit-vue (ou minivue), não foi necessário instalar node.js ou o npm porque foi necessário importar um comando no arquivo .html </details>
+- **Template do back e frontend** <details> <summary>Ver detalhes</summary> Fui responsável por criar o template inicial da aplicação, isto é, criar a infraestrtura inicial da API. No backend instalei e configurei o gerenciador de pacotes UV, além de usá-lo para implementar o FastApi e todas as bibliotecas usadas (como Sqlalchemy, pytest, pandas e etc...). Para o frontend, usei uma versão menor do Vue.Js chamda petit-vue (ou minivue), não foi necessário instalar node.js ou o npm porque foi necessário importar um comando no arquivo .html </details>
   
 - **Configuração do Docker** <details> <summary>Ver detalhes</summary> Para a infraestrutura da API funcionar para todos os integrantes, usei o Docker para virtualizar o ambiente e também poder instalar ferramentas que faltavam. Além de usar a imagem Python, foi necessário implementar as imagens do PostgresSQL e o MongoDB, já que serão os dois bancos de dados que usamos. Postgres para armazenamento de usuário e concessionários e o Mongo para armazenar todos os dados contidos da ANEEL. </details> 
   

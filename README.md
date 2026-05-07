@@ -233,8 +233,7 @@ Nesse projeto, atuei diretamente no desenvolvimento fullstack, sendo responsáve
 - **Correção de bug envolvendo registro de portais**
     <details>
       <summary>Ver detalhes</summary>
-      Corrigi um bug no cadastro de portais que a checkbox sempre dava como ativa, mas precisava ter a opção de ativar ou desativar o portal de notícia
-    </details>
+          Corrigi um bug de sincronização no v-model de uma listagem de checkboxes. O problema ocorria devido à atribuição de valores 'truthy' genéricos durante o ciclo de vida de montagem do componente. Ajustei a inicialização do estado reativo para garantir que o array de permissões (ou a flag de status) comece como false ou vazio, restabelecendo o controle bidirecional de ativação e desativação dos portais.    </details>
 
 - **Exibição do conteúdo da notícia através de um pop-up**
     <details>
@@ -313,7 +312,7 @@ Atuei, pela primeira vez como Product Owner, ou seja, fui responsável por toda 
    </details>
   
 - **Toda documentação em relação ao produto** <details> <summary>Ver detalhes</summary>
-    Como Product Owner, fui responsável por toda a documentação do produto, incluindo: elaboração do backlog priorizado com metodologia MoSCoW, escrita de user stories com critérios de aceitação claros, definição do sprint backlog, criação do manual do usuário e manutenção da comunicação constante com o cliente para validação de requisitos e expectativas.
+    Como PO, atuei como o elo central entre o cliente e o time de desenvolvimento, detendo o entendimento total da visão do produto. Fui o arquiteto da documentação técnica e funcional, estruturando o backlog com foco em priorização estratégica. Defini critérios rigorosos de DoR (para entrada em desenvolvimento) e DoD (para validação de entrega), além de gerenciar expectativas dos stakeholders através de um alinhamento constante, garantindo que o produto final atendesse aos requisitos levantados.
   </details>
 
 ### Hard Skills
@@ -396,7 +395,7 @@ Desta vez as funções foram mais voláteis, durante a maioria do projeto atuei 
   
 - **Documentação do SonnarQube** <details> <summary>Ver detalhes</summary> Atuando no fluxo de DevOps, fui responsável pela documentação técnica e implementação da análise estática de código via <strong>SonarQube</strong>. O escopo incluiu o setup da ferramenta via containerização, a definição de <strong>Quality Gates</strong>, a parametrização de scanners para visualização de cobertura de testes e a análise crítica de <em>Technical Debt</em> (Débito Técnico) e vulnerabilidades para garantir a integridade e segurança da aplicação.  </details> 
   
-- **Plano de rastreabilidade** <details> <summary>Ver detalhes</summary> No lado do DevOps, estabeleci o plano de rastreabilidade do projeto através da criação de IDs exclusivos mapeados aos requisitos funcionais. Implementei <strong>pipelines de CI/CD via GitHub Actions</strong> que automatizam a governança do repositório, validando se os commits seguem padrões predefinidos (como Conventional Commits), verificando a organização do código através de linters e garantindo a execução obrigatória da suíte de testes antes de qualquer merge.  </details> 
+- **Plano de rastreabilidade** <details> <summary>Ver detalhes</summary> Desenvolvi um ecossistema de Requirement Tracking onde cada incremento de software é auditável e vinculado a requisitos técnicos através das labels do Github Projects. Estruturei esteiras de CI/CD para implementar Static Analysis Security Testing (SAST) e linting automatizado, assegurando que o código adira aos padrões de arquitetura antes do merge. A automação garante que a suíte de testes seja um pré-requisito mandatório, eliminando dívida técnica e garantindo a rastreabilidade total desde a definição da User Story até o deploy.  </details> 
 
 ### Hard Skills
 
@@ -459,9 +458,9 @@ Link do Repositório: [Thunder-Stone](https://github.com/c137santos/FATEC-API-6-
 
 ### Contribuições Pessoais
 
-- **Template do back e frontend** <details> <summary>Ver detalhes</summary> Fui responsável por criar o template inicial da aplicação, isto é, criar a infraestrtura inicial da API. No backend instalei e configurei o gerenciador de pacotes UV, além de usá-lo para implementar o FastApi e todas as bibliotecas usadas (como Sqlalchemy, pytest, pandas e etc...). Para o frontend, usei uma versão menor do Vue.Js chamda petit-vue (ou minivue), não foi necessário instalar node.js ou o npm porque foi necessário importar um comando no arquivo .html </details>
+- **Template do back e frontend** <details> <summary>Ver detalhes</summary> Fui responsável por criar o template inicial da aplicação, isto é, criar a infraestrtura inicial da API. No backend instalei e configurei o gerenciador de pacotes UV, além de usá-lo para implementar o FastApi e todas as bibliotecas usadas (como Sqlalchemy, pytest, pandas e etc...). Para o frontend, usei uma versão menor do Vue.Js chamda petit-vue (ou minivue), não foi necessário instalar node.js ou o npm porque só precisava importar um <script> no arquivo .html </details>
   
-- **Configuração do Docker** <details> <summary>Ver detalhes</summary> Para a infraestrutura da API funcionar para todos os integrantes, usei o Docker para virtualizar o ambiente e também poder instalar ferramentas que faltavam. Além de usar a imagem Python, foi necessário implementar as imagens do PostgresSQL e o MongoDB, já que serão os dois bancos de dados que usamos. Postgres para armazenamento de usuário e concessionários e o Mongo para armazenar todos os dados contidos da ANEEL. </details> 
+- **Configuração do Docker** <details> <summary>Ver detalhes</summary> Para a infraestrutura da API funcionar para todos os integrantes, usei o Docker para virtualizar o ambiente e também poder instalar ferramentas que faltavam. Além de usar a imagem Python, foi necessário implementar as imagens do PostgresSQL e o MongoDB, já que serão os dois bancos de dados que usamos. Postgres para armazenamento de de Id, nome, email, senha e data de criação para usuários e para as distribuidoras seu Id, nome, anos dos dados e job_id vinculado; o MongoDB foi para armazenar todos os dados massivos contidos da ANEEL. </details> 
   
 - **Cálculo do TAM** <details> <summary>Ver detalhes</summary> Um dos tratamentos de dados das concessionárias que precisamos fazer foi o cálculo do TAM, que consistia em montar um gráfico com a soma (em quilômetros) da extensão dos fios de média tensão que circulava em determinados trechos. Para fazer esse cálculo, criei um service para o TAM e a integrei na arquitetura de pipeline que usamos. Para funcionar essa pipeline acionamos a rota pipeline/trigger e o arquivo .gdb é instalado e criado um job_id para ser salvo no MongoDB e nesse id nós injetamos os cálculos e os gráficos nessa linha de monstagem. Com o cálculo feito, fiz o ranking em ordem decrescente do trecho com maior extensão para o de menor extensão e um gráfico para traduzir esse ranking de forma mais visual. </details>
 

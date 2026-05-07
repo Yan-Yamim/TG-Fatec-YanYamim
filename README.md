@@ -485,3 +485,7 @@ Link do Repositório: [Thunder-Stone](https://github.com/c137santos/FATEC-API-6-
 - **Vue.js** – Por se tratar de uma aplicação de frontend mais simples, usamos o mini-vue que é uma extensão nos permite usar comandos do Vue.Js sem precisar seguir toda uma estrtura de componentes, rotas e configurações para fazer o Vue em si rodar.
 
 ### Soft Skills
+
+- **Aprendizado contínuo** -
+- **Persistência** -
+- **Entender os erros** - 

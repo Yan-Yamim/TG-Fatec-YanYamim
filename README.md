@@ -464,7 +464,11 @@ Link do Repositório: [Thunder-Stone](https://github.com/c137santos/FATEC-API-6-
   
 - **Cálculo do TAM** <details> <summary>Ver detalhes</summary> Um dos tratamentos de dados das concessionárias que precisamos fazer foi o cálculo do TAM, que consistia em montar um gráfico com a soma (em quilômetros) da extensão dos fios de média tensão que circulava em determinados trechos. Para fazer esse cálculo, criei um service para o TAM e a integrei na arquitetura de pipeline que usamos. Para funcionar essa pipeline acionamos a rota pipeline/trigger e o arquivo .gdb é instalado e criado um job_id para ser salvo no MongoDB e nesse id nós injetamos os cálculos e os gráficos nessa linha de monstagem. Com o cálculo feito, fiz o ranking em ordem decrescente do trecho com maior extensão para o de menor extensão e um gráfico para traduzir esse ranking de forma mais visual. </details>
 
-- **Criação da IA** <details> <summary>Ver detalhes</summary> </details>
+- **Correção dos links do DEC e FEC para os settings** <details> <summary>Ver detalhes</summary> Para melhor acessibilidade do usuário, disponibilizei os links do DEC e FEC limite e realizado no arquivo settings.py onde há a classe Settings que possuem atributos como dec_fec_realizado e dec_fec_limite que possuem como default o link dos seus arquivos .csv para que o usuário não precise pesquisar na documentação os links necessários.</details>
+
+- **Script de setup para download DEC e FEC e sincronização de distribuidoras** <details> <summary>Ver detalhes</summary> Para diminuir a complexidade do processo de geração de relatórios, ao invés de ir nos endpoints de `dist/sync` e `etl/load-dec-fec` o usuário já terá essa base de dados salvas em seu banco devido a um script criado .sh que consiste num `curl` para chamar os endpoints mencionados para popular os bancos através do docker-compose, para evitar conflitos e sobrescrita de código também existe uma verificação no script para saber se esse processo já foi executado antes, se já foi não é acionado.</details>
+
+- **Plotagem do gráfico da série temporal** <details> <summary>Ver detalhes</summary> </details>
 
 ### Hard Skills
 
@@ -486,6 +490,6 @@ Link do Repositório: [Thunder-Stone](https://github.com/c137santos/FATEC-API-6-
 
 ### Soft Skills
 
-- **Aprendizado contínuo** -
-- **Persistência** -
-- **Entender os erros** - 
+- Foi necessário aprendizado contínuo e adaptação para os desafios dessa API, visto que usamos arquitetura de pipeline para a criação dos PDFs, fluxo esse que nunca tinha experienciado antes, além da criar uma IA de série temporal para prever os dados após 1 ano.
+- Tive que ter persistência para superar os desafios da integração das minhas tarefas no fluxo de pipeline e de entender como ela, de fato, funciona.
+- Entender meus erros foi importante para garantir meu aprendizado e a qualidade dos códigos.

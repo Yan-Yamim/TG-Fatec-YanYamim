@@ -431,7 +431,7 @@ Desta vez as funções foram mais voláteis, durante a maioria do projeto atuei 
 
 ### <a name="pokemon"></a>6° semestre | 1/2026
 
-**Projeto**: Thunder Stone  
+**Projeto**: Thunderstone  
 **Empresa parceira**: Tecsys - Soluções para infraestrutura, nas áreas de TV Digital & Radiofrequência, Smart grid e telecomunicações
 
 ### Problema
@@ -468,7 +468,7 @@ Link do Repositório: [Thunder-Stone](https://github.com/c137santos/FATEC-API-6-
 
 - **Script de setup para download DEC e FEC e sincronização de distribuidoras** <details> <summary>Ver detalhes</summary> Para diminuir a complexidade do processo de geração de relatórios, ao invés de ir nos endpoints de `dist/sync` e `etl/load-dec-fec` o usuário já terá essa base de dados salvas em seu banco devido a um script criado .sh que consiste num `curl` para chamar os endpoints mencionados para popular os bancos através do docker-compose, para evitar conflitos e sobrescrita de código também existe uma verificação no script para saber se esse processo já foi executado antes, se já foi não é acionado.</details>
 
-- **Plotagem do gráfico da série temporal** <details> <summary>Ver detalhes</summary> </details>
+- **Mudança do layout do relatório final** <details> <summary>Ver detalhes</summary> Inicialmente, o relatório final estava com uma aparẽncia pouco padronizada e os gráficos de tamanhos variados. Por isso mesmo, alterei as cores dos gráficos para condizerem com a logo Thunderstone e padronizei o tamanho dos gráficos para todos ficarem visíveis usando ferramentas da biblioteca ReportLab e correções de títulos nas tasks de renderizar gráficos. </details>
 
 ### Hard Skills
 
@@ -491,5 +491,5 @@ Link do Repositório: [Thunder-Stone](https://github.com/c137santos/FATEC-API-6-
 ### Soft Skills
 
 - Foi necessário aprendizado contínuo e adaptação para os desafios dessa API, visto que usamos arquitetura de pipeline para a criação dos PDFs, fluxo esse que nunca tinha experienciado antes, além da criar uma IA de série temporal para prever os dados após 1 ano.
-- Tive que ter persistência para superar os desafios da integração das minhas tarefas no fluxo de pipeline e de entender como ela, de fato, funciona.
-- Entender meus erros foi importante para garantir meu aprendizado e a qualidade dos códigos.
+- Entender meus erros foi importante para garantir aprendizado e a persistência na integração das minhas tarefas no fluxo de pipeline e de entender como ela, de fato, funciona.
+- Trabalho em equipe foi praticado ativamente no ecossistema do GitHub por meio de revisões de código (code reviews) em pull requests, resolução de conflitos de merge de forma saudável e facilitação do ambiente de desenvolvimento para os outros integrantes através da containerização com Docker.

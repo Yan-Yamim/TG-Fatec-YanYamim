@@ -106,9 +106,9 @@ No primeiro projeto, atuei como desenvolvedor, sendo responsável pela implement
 
 ### Soft Skills
 
-- Durante a execução do projeto, assumi um papel de liderança devido a problemas de engajamento da equipe e para orientá-los na definição de metas e prioridades. Identifiquei a necessidade de realinhar as entregas e por meio de reuniões objetivas e divisão de tarefas. Promovi um ambiente colaborativo, mediando conflitos e incentivando a contribuição de cada membro.
-- Enfrentei prazos curtos, problemas de comunicação, dificuldades de compreensão de requisitos e engajamento da equipe. Mesmo diante desses obstáculos, mantive o foco e a motivação. Organizei prioridades, reestruturei tarefas e, com esforço contínuo, garanti que as entregas fossem feitas com qualidade, respeitando os prazos estabelecidos.
-- Em um projeto com requisitos complexos, tomei a iniciativa de estruturar a base do código antes mesmo da definição final das regras de negócio. Defini como será estruturado o desenvolvimento e documentei as decisões técnicas para alinhar a equipe. Essa abordagem não apenas acelerou o processo de implementação, mas também serviu como referência para evitar retrabalhos. Isso garantiu que o projeto avançasse de forma organizada, mesmo em um cenário de incertezas.
+- **Liderança**: Durante a execução do projeto, assumi um papel de liderança devido a problemas de engajamento da equipe e para orientá-los na definição de metas e prioridades. Identifiquei a necessidade de realinhar as entregas e por meio de reuniões objetivas e divisão de tarefas. Promovi um ambiente colaborativo, mediando conflitos e incentivando a contribuição de cada membro.
+- **Resiliência**: Enfrentei prazos curtos, problemas de comunicação, dificuldades de compreensão de requisitos e engajamento da equipe. Mesmo diante desses obstáculos, mantive o foco e a motivação. Organizei prioridades, reestruturei tarefas e, com esforço contínuo, garanti que as entregas fossem feitas com qualidade, respeitando os prazos estabelecidos.
+- **Proatividade**: Em um projeto com requisitos complexos, tomei a iniciativa de estruturar a base do código antes mesmo da definição final das regras de negócio. Defini como será estruturado o desenvolvimento e documentei as decisões técnicas para alinhar a equipe. Essa abordagem não apenas acelerou o processo de implementação, mas também serviu como referência para evitar retrabalhos. Isso garantiu que o projeto avançasse de forma organizada, mesmo em um cenário de incertezas.
 
 ---
 
@@ -172,9 +172,9 @@ Nesse projeto, pela primeira vez atuei como Scrum Master, ou seja, minhas respon
 
 ### Soft Skills
 
-- Como Scrum Master, enfrentei o desafio de equilibrar autonomia e suporte, garantindo que a equipe se sentisse capacitada para entregar resultados com qualidade. Para isso, promovi um ambiente de confiança mútua, onde cada membro tinha clareza sobre suas responsabilidades, mas sabia que poderia contar com meu apoio em impedimentos técnicos ou burocráticos. Realizei check-ins individuais para entender dificuldades e facilitar soluções, além de incentivar a colaboração entre pares. O resultado foi um time mais coeso, com entregas consistentes e um aumento significativo na auto-organização.
-- Em um projeto com requisitos em evolução, a comunicação clara foi essencial para evitar retrabalhos e ambiguidades. Como Scrum Master, atuei como facilitador, garantindo que as informações fluíssem de forma transparente entre desenvolvedores, Product Owner e clientes. Implementei técnicas como Daily Objetivas (focadas em bloqueios) e revisões de backlog com linguagem não técnica para alinhar expectativas. Além disso, documentei decisões-chave em canais acessíveis. Essa abordagem reduziu as dúvidas críticas durante as sprints e aumentou a eficiência nas entregas.
-- Diante de uma equipe sobrecarregada e prazos realistas, priorizei o bem-estar do time sem comprometer o valor do produto. Adaptei o ritmo das sprints, negociando prazos com o Product Owner quando necessário, e introduzi práticas como buffer times para imprevistos. Promovi retrospectivas honestas para ajustar processos e, em casos específicos, aceitei entregas parciais para evitar burnout. Essa flexibilidade equilibrou sustentabilidade e resultados: a produtividade aumentou a longo prazo, e a equipe manteve um engajamento alto, mesmo em fases críticas.
+- **Desenvolvimento de pessoas**: Como Scrum Master, enfrentei o desafio de equilibrar autonomia e suporte, garantindo que a equipe se sentisse capacitada para entregar resultados com qualidade. Para isso, promovi um ambiente de confiança mútua, onde cada membro tinha clareza sobre suas responsabilidades, mas sabia que poderia contar com meu apoio em impedimentos técnicos ou burocráticos. Realizei check-ins individuais para entender dificuldades e facilitar soluções, além de incentivar a colaboração entre pares. O resultado foi um time mais coeso, com entregas consistentes e um aumento significativo na auto-organização.
+- **Comunicação assertiva**: Em um projeto com requisitos em evolução, a comunicação clara foi essencial para evitar retrabalhos e ambiguidades. Como Scrum Master, atuei como facilitador, garantindo que as informações fluíssem de forma transparente entre desenvolvedores, Product Owner e clientes. Implementei técnicas como Daily Objetivas (focadas em bloqueios) e revisões de backlog com linguagem não técnica para alinhar expectativas. Além disso, documentei decisões-chave em canais acessíveis. Essa abordagem reduziu as dúvidas críticas durante as sprints e aumentou a eficiência nas entregas.
+- **Empatia**: Diante de uma equipe sobrecarregada e prazos realistas, priorizei o bem-estar do time sem comprometer o valor do produto. Adaptei o ritmo das sprints, negociando prazos com o Product Owner quando necessário, e introduzi práticas como buffer times para imprevistos. Promovi retrospectivas honestas para ajustar processos e, em casos específicos, aceitei entregas parciais para evitar burnout. Essa flexibilidade equilibrou sustentabilidade e resultados: a produtividade aumentou a longo prazo, e a equipe manteve um engajamento alto, mesmo em fases críticas.
 
 ---
 
@@ -253,10 +253,10 @@ Nesse projeto, atuei diretamente no desenvolvimento fullstack, sendo responsáve
 ---
 
 ### Soft Skills
-- Durante o desenvolvimento do projeto, enfrentei situações técnicas complexas que exigiram clareza na comunicação. Para superar essas dificuldades, procurei colegas mais experientes, explicando de forma objetiva os problemas enfrentados e ouvindo atentamente sugestões e feedbacks. Essa troca constante foi essencial para encontrar soluções eficientes e manter a fluidez no andamento da equipe.
-- A colaboração entre os membros foi fundamental para o sucesso da API. Participei ativamente de reuniões de alinhamento, dividi responsabilidades com clareza e mantive um canal aberto para revisões de código e suporte mútuo. A soma de conhecimentos e o respeito pelas ideias dos colegas resultaram em um desenvolvimento mais ágil e com maior qualidade técnica.
-- Enfrentei prazos curtos, bugs inesperados e dificuldades de compreensão de requisitos. Mesmo diante desses obstáculos, mantive o foco e a motivação. Organizei prioridades, reestruturei tarefas e, com esforço contínuo, garanti que as entregas fossem feitas com qualidade, respeitando os prazos estabelecidos.
-- Tive que lidar com ferramentas e frameworks até então desconhecidos, como o Spring Boot e o Docker. Para acompanhar o ritmo da equipe e contribuir efetivamente, dediquei-me a aprender rapidamente por meio de cursos, documentação oficial e tutoriais. Essa capacidade de aprender e aplicar novos conhecimentos foi decisiva para minha evolução no projeto.</li> </ul>
+- **Humildade intelectual**: Durante o desenvolvimento do projeto, enfrentei situações técnicas complexas que exigiram clareza na comunicação. Para superar essas dificuldades, procurei colegas mais experientes, explicando de forma objetiva os problemas enfrentados e ouvindo atentamente sugestões e feedbacks. Essa troca constante foi essencial para encontrar soluções eficientes e manter a fluidez no andamento da equipe.
+- **Trabalho em equipe**: A colaboração entre os membros foi fundamental para o sucesso da API. Participei ativamente de reuniões de alinhamento, dividi responsabilidades com clareza e mantive um canal aberto para revisões de código e suporte mútuo. A soma de conhecimentos e o respeito pelas ideias dos colegas resultaram em um desenvolvimento mais ágil e com maior qualidade técnica.
+- **Resolução de problemas**: Enfrentei prazos curtos, bugs inesperados e dificuldades de compreensão de requisitos. Mesmo diante desses obstáculos, mantive o foco e a motivação. Organizei prioridades, reestruturei tarefas e, com esforço contínuo, garanti que as entregas fossem feitas com qualidade, respeitando os prazos estabelecidos.
+- **Aprendizado rápido**: Tive que lidar com ferramentas e frameworks até então desconhecidos, como o Spring Boot e o Docker. Para acompanhar o ritmo da equipe e contribuir efetivamente, dediquei-me a aprender rapidamente por meio de cursos, documentação oficial e tutoriais. Essa capacidade de aprender e aplicar novos conhecimentos foi decisiva para minha evolução no projeto.
 
 ---
 
@@ -337,11 +337,9 @@ Atuei, pela primeira vez como Product Owner, ou seja, fui responsável por toda 
 
 ### Soft Skills
 
-- Como Product Owner, mantive comunicação clara e constante com o cliente da Visiona, traduzindo requisitos técnicos complexos em linguagem acessível e garantindo alinhamento total sobre expectativas e entregas. Facilitou a comunicação entre stakeholders técnicos e não-técnicos.
-  
-- Colaborei efetivamente em um ambiente multifuncional, participando ativamente de reuniões de planejamento, revisões de código pareadas e sessões de troubleshooting coletivo. Promovi um ambiente de aprendizado mútuo e divisão equilibrada de tarefas.
-  
-- Enfrentei desafios como prazos apertados, requisitos em evolução e problemas técnicos complexos. Mantive foco nas soluções, adaptando planos quando necessário e perseverando até encontrar abordagens eficazes para cada obstáculo encontrado.
+- **Comunicação interpessoal**: Como Product Owner, mantive comunicação clara e constante com o cliente da Visiona, traduzindo requisitos técnicos complexos em linguagem acessível e garantindo alinhamento total sobre expectativas e entregas. Facilitou a comunicação entre stakeholders técnicos e não-técnicos.
+- **Colaboração**: Colaborei efetivamente em um ambiente multifuncional, participando ativamente de reuniões de planejamento, revisões de código pareadas e sessões de troubleshooting coletivo. Promovi um ambiente de aprendizado mútuo e divisão equilibrada de tarefas.
+- **Adaptabilidade**: Enfrentei desafios como prazos apertados, requisitos em evolução e problemas técnicos complexos. Mantive foco nas soluções, adaptando planos quando necessário e perseverando até encontrar abordagens eficazes para cada obstáculo encontrado.
 
 ---
 
@@ -419,13 +417,10 @@ Desta vez as funções foram mais voláteis, durante a maioria do projeto atuei 
 
 ### Soft Skills
 
-- Como Product Owner, mantive comunicação clara e constante com o cliente da Necto, traduzindo requisitos técnicos complexos em linguagem acessível e garantindo alinhamento total sobre expectativas e entregas. Facilitou a comunicação entre stakeholders técnicos e não-técnicos.
-  
-- Colaborei efetivamente em um ambiente multifuncional, participando ativamente de reuniões de planejamento, revisões de código pareadas e sessões de troubleshooting coletivo. Promovi um ambiente de aprendizado mútuo e divisão equilibrada de tarefas.
-    
-- Por se tratar de uma arquiterura e infraestrutura diferente da qual estava acostumado, precisei me adaptar a nova proposta com Python e Django para poder realizar o projeto da melhor forma possível.
-    
-- Enfrentei desafios como prazos apertados, requisitos em evolução e problemas técnicos complexos. Mantive foco nas soluções, adaptando planos quando necessário e perseverando até encontrar abordagens eficazes para cada obstáculo encontrado.
+- **Tradução de negócios**: Como Product Owner, mantive comunicação clara e constante com o cliente da Necto, traduzindo requisitos técnicos complexos em linguagem acessível e garantindo alinhamento total sobre expectativas e entregas. Facilitou a comunicação entre stakeholders técnicos e não-técnicos.
+- **Trabalho em equipe**: Colaborei efetivamente em um ambiente multifuncional, participando ativamente de reuniões de planejamento, revisões de código pareadas e sessões de troubleshooting coletivo. Promovi um ambiente de aprendizado mútuo e divisão equilibrada de tarefas.
+- **Flexibilidade cognitiva**: Por se tratar de uma arquiterura e infraestrutura diferente da qual estava acostumado, precisei me adaptar a nova proposta com Python e Django para poder realizar o projeto da melhor forma possível.
+- **Orientação para resultados**: Enfrentei desafios como prazos apertados, requisitos em evolução e problemas técnicos complexos. Mantive foco nas soluções, adaptando planos quando necessário e perseverando até encontrar abordagens eficazes para cada obstáculo encontrado.
 
 ---
 
@@ -490,6 +485,7 @@ Link do Repositório: [Thunder-Stone](https://github.com/c137santos/FATEC-API-6-
 
 ### Soft Skills
 
-- Foi necessário aprendizado contínuo e adaptação para os desafios dessa API, visto que usamos arquitetura de pipeline para a criação dos PDFs, fluxo esse que nunca tinha experienciado antes, além da criar uma IA de série temporal para prever os dados após 1 ano.
-- Entender meus erros foi importante para garantir aprendizado e a persistência na integração das minhas tarefas no fluxo de pipeline e de entender como ela, de fato, funciona.
-- Trabalho em equipe foi praticado ativamente no ecossistema do GitHub por meio de revisões de código (code reviews) em pull requests, resolução de conflitos de merge de forma saudável e facilitação do ambiente de desenvolvimento para os outros integrantes através da containerização com Docker.
+- **Aprendizado contínuo**: Foi necessário um processo de aprendizado contínuo e rápida adaptabilidade frente aos desafios técnicos desta API. Lidei com conceitos inéditos na minha trajetória, como a implementação de uma arquitetura de pipeline para a geração automatizada de PDFs e o desenvolvimento de um modelo de Inteligência Artificial baseado em séries temporais para a previsão de dados em um horizonte de um ano.
+- **Pensamento crítico**: A resiliência e a análise crítica dos erros foram fundamentais para consolidar o meu aprendizado. Essa postura me permitiu persistir diante das dificuldades de integração das minhas tarefas ao fluxo de pipeline, garantindo uma compreensão profunda e prática do funcionamento interno dessa arquitetura.
+- **Colaboração**: O trabalho em equipe foi praticado ativamente dentro do ecossistema do GitHub, evidenciado pela realização constante de revisões de código (code reviews) em pull requests e pela resolução saudável de conflitos de merge. Além disso, colaborei diretamente com a produtividade do time ao facilitar o ambiente de desenvolvimento dos outros integrantes por meio da containerização com Docker.
+- **Sinergia em equipe**: Por se tratar do último projeto de API desenvolvido pelo grupo, o profundo conhecimento sobre os pontos fortes e fracos de cada integrante potencializou a sinergia do time. Esse entrosamento refletiu-se em uma comunicação altamente eficiente, em uma divisão estratégica de tarefas e no cumprimento rigoroso dos prazos de entrega.
